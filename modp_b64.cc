@@ -43,7 +43,7 @@
  */
 
 /* public header */
-#include "modp_b64.h"
+#include "modp_b64/modp_b64.h"
 
 /*
  * If you are ripping this out of the library, comment out the next

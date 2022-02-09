@@ -1,0 +1,12 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+
+Name: libmodpb64
+Description: libmodpb64 android library
+Version: @VERSION@
+Libs: -L${libdir} -lmodpb64
+Cflags: -I${includedir}
+
