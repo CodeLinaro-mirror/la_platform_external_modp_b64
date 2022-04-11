@@ -37,10 +37,8 @@ libmodpb64_la_SOURCES := $(libmodpb64_src_la_SOURCES)
 if USE_GLIB
 libmodpb64_la_CFLAGS := $(AM_CFLAGS) -DUSE_GLIB @GLIB_CFLAGS@
 libmodpb64_la_CPPFLAGS := $(AM_CPPFLAGS) -fpermissive -DUSE_GLIB @GLIB_CFLAGS@
-libmodpb64_la_LIBADD := -lm -lcurl -lcrypto -lpthread @GLIB_LIBS@
 else
 libmodpb64_la_CFLAGS := $(AM_CFLAGS)
 libmodpb64_la_CPPFLAGS := $(AM_CPPFLAGS) -fpermissive
-libmodpb64_la_LIBADD := -lm -lcurl -lcrypto -lpthread
 endif
 
